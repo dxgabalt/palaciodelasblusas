@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png">
+
+    <title>Catálogo - El Palacio de las Blusas</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff5f5; /* Un tono suave de rosa */
+            color: #333;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        }
+
+        header h1 {
+            color: #ff69b4; /* Color rosa */
+            font-size: 36px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ff69b4; /* Color rosa */
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #e60073; /* Color rosa más brillante al pasar el mouse */
+        }
+
+        section.productos {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .producto {
+            background-color: #fff;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        .producto img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .producto h3 {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        .producto p {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #333; /* Color gris oscuro */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>El Palacio de las Blusas</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="productos">
+        <div class="producto">
+            <img src="rosa.jpg" alt="Blusa Rosa">
+            <h3>Blusa Rosa</h3>
+            <p>Precio: $30.00</p>
+        </div>
+
+        <div class="producto">
+            <img src="dorada.jpg" alt="Blusa Dorada">
+            <h3>Blusa Dorada</h3>
+            <p>Precio: $35.00</p>
+        </div>
+
+        <div class="producto">
+            <img src="gris.jpg" alt="Blusa Gris">
+            <h3>Blusa Gris</h3>
+            <p>Precio: $28.00</p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 El Palacio de las Blusas</p>
+    </footer>
+</body>
+</html>
